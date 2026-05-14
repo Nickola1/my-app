@@ -1,0 +1,9 @@
+replicaCount: 2
+image:
+  repository: nickola1331/my-app
+  tag: latest
+  pullPolicy: Always
+service:
+  type: NodePort
+  port: 80
+  targetPort: 5000
