@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         APP_NAME = 'my-app'
-        DOCKER_IMAGE = nickola1331/\${APP_NAME}:\${BUILD_NUMBER}"
+        DOCKER_IMAGE = nickola1331/${APP_NAME}:${BUILD_NUMBER}"
     }
 
     stages {
